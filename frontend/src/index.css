@@ -1,0 +1,64 @@
+body {
+  line-height: 1.5;
+  font-size: 15px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Montserrat", sans-serif;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.form-control:focus {
+  border-color: initial;
+  outline: 0;
+  box-shadow: none;
+}
+.primary-btn {
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgb(255 255 255);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.625rem 3.5rem;
+  border: 1px solid rgb(255 255 255);
+  font-weight: 500;
+  border-radius: 50px;
+  text-decoration: none;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+.primary-btn:hover {
+  color: rgb(2 132 199);
+  background-color: rgb(255 255 255);
+}
+.secondary-btn {
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgb(255 255 255);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.625rem 3.5rem;
+  border: 1px solid rgb(2 132 199);
+  background-color: rgb(2 132 199);
+  font-weight: 500;
+  border-radius: 50px;
+  text-decoration: none;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+.secondary-btn:hover {
+  color: rgb(2 132 199);
+  background-color: rgb(255 255 255);
+  border: 1px solid rgb(2 132 199);
+}
